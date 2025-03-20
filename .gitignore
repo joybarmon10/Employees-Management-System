@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+*.egg
+
+# Django-specific files
+*.log
+db.sqlite3
+/media/
+*.pyc
+*.pyo
+
+# Environment variables and secrets
+.env
+*.pem
+
+# Migrations (optional, if you want them tracked, remove this)
+**/migrations/**
+
+# VSCode and JetBrains IDEs
+.vscode/
+.idea/
+
+# Node modules (if using frontend libraries)
+node_modules/
+
+# Static and media files
+/static/
+media/
+
+# Compiled files
+*.so
+*.mo
+*.pot
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Celery task queue
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+*.img
+
+# Gunicorn logs
+gunicorn.log
+gunicorn.err
+
+# MySQL / PostgreSQL dump files
+*.sql
+*.dump
+*.sql.gz
+*.dump.gz
